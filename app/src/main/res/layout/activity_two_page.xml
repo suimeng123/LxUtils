@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lx.utils.view.TwoPageLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tpl">
+
+        <!--<include layout="@layout/activity_page1"/>-->
+        <!--<include layout="@layout/activity_page2"/>-->
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="page1"
+            android:onClick="OnClick"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="page2"
+            android:onClick="OnClick"/>
+</com.lx.utils.view.TwoPageLayout>

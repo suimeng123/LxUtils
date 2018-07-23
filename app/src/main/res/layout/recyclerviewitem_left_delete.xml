@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="#e0e0e0">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="标题" />
+    <Button
+        android:id="@+id/item_btn"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:text="删除"
+        android:textColor="#fff"
+        android:background="#ff0000"/>
+</LinearLayout>

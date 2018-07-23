@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LxUtilsApplication</string>
+    <string name="last_year">《</string>
+    <string name="last_month">《</string>
+    <string name="next_year">》</string>
+    <string name="next_month">》</string>
+
+    <string name="img_url">https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1524829526043&amp;di=f37cbad8109ab7787ae89f230c9eb3f5&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.sanbengzi.com%2F2616536373-3241812149-21-0.jpg</string>
+</resources>

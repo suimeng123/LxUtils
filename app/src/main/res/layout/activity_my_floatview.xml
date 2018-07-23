@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lx.utils.view.FloatViewLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="标题"
+        android:gravity="center"
+        android:background="#000"
+        android:textColor="#fff"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"/>
+    <com.lx.utils.view.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容"
+        android:gravity="center"
+        android:background="#000"
+        app:isFloat = "true"
+        android:translationZ="10px"
+        android:textColor="#fff"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="1200dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"/>
+</com.lx.utils.view.FloatViewLayout>
